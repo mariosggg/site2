@@ -1,0 +1,17 @@
+2023-10-18T06:42:12+00:00 CRITICAL Uncaught TypeError: voku\helper\HtmlDomParser::loadHtml(): Argument #1 ($html) must be of type string, bool given, called in C:\wamp64\www\site2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 228 and defined in C:\wamp64\www\site2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:870
+Stack trace:
+#0 C:\wamp64\www\site2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(228): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 C:\wamp64\www\site2\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(337): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 C:\wamp64\www\site2\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(179): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 C:\wamp64\www\site2\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(140): Simply_Static\Url_Extractor->extract_and_update_urls()
+#4 C:\wamp64\www\site2\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(108): Simply_Static\Fetch_Urls_Task->handle_200_response(Object(Simply_Static\Page), true, true)
+#5 C:\wamp64\www\site2\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php(146): Simply_Static\Fetch_Urls_Task->perform()
+#6 C:\wamp64\www\site2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('fetch_urls')
+#7 C:\wamp64\www\site2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#8 C:\wamp64\www\site2\wp-includes\class-wp-hook.php(310): WP_Background_Process->maybe_handle('')
+#9 C:\wamp64\www\site2\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#10 C:\wamp64\www\site2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\wamp64\www\site2\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wp_arch...')
+#12 {main}
+  thrown μέσα στο C:\wamp64\www\site2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php στην γραμμή 870
+

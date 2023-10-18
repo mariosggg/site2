@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Whisper';
+    src: url('../fonts/whisper/Whisper-Regular.woff2') format('woff2'),
+         url('../fonts/whisper/Whisper-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

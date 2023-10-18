@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'SFU DIN';
+    src: url('../fonts/sfudin/SFUDINEngAlt.woff2') format('woff2'),
+        url('../fonts/sfudin/SFUDINEngAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU DIN';
+    src: url('../fonts/sfudin/SFUDINLight.woff2') format('woff2'),
+        url('../fonts/sfudin/SFUDINLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU DIN';
+    src: url('../fonts/sfudin/SFUDINNeuGroBoldCondensed.woff2') format('woff2'),
+        url('../fonts/sfudin/SFUDINNeuGroBoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
